@@ -1,0 +1,149 @@
+#about{
+    display: flex;
+    flex-direction: column;
+}
+#about h3{
+   margin: auto;
+   text-align: center;
+   display: flex;
+   margin-top: 10%;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+  width: 50vw;
+}
+.carousel-control-next{
+  color: #D4B254;
+}
+.carousel-control-prev{
+  color: #D4B254;
+}
+.image-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5% 5%;
+}
+.kitchen{
+  display: flex;
+  flex-wrap: wrap;
+  width: 18vw;
+}
+.about-container{
+ padding-top: 50px;
+ padding-bottom: 50px;
+ padding-left: 30px;
+ padding-right: 80px;
+ font-size: 0.7rem;
+}
+.about-container2{
+  padding: 20%;
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #EEEEEE;
+}
+.link2 a{
+   color: #FFFFFF;
+  background: #D4B254 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 10px #00000033;
+  border-radius: 30px;
+  opacity: 1;
+  padding: 10px 30px;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.about-container2 h1{
+  text-align: center;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.text1{
+text-align: left;
+letter-spacing: 3px;
+color: #D4B254;
+text-transform: uppercase;
+opacity: 1;
+}
+.text2{
+text-align: left;
+letter-spacing: 0px;
+color: #777777;
+opacity: 1;
+}
+.text3{
+  text-align: center;
+  letter-spacing: 3px;
+  color: #D4B254;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.link3{
+  display: flex;
+  margin: 5% auto;
+  background: #D4B254 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 10px #00000033;
+  border-radius: 30px;
+  opacity: 1;
+  padding: 10px 30px;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.nav-link-header{
+    color: #FFFFFF;
+}
+@media screen and (min-width : 320px) and (max-width : 375px){
+  
+   .content{
+    display: block;
+  }
+}
+@media screen and (min-width : 375px) and (max-width : 720px){
+    .content{
+    display: block;
+  }
+}
+@media screen and (min-width : 768px) and (max-width : 1024px){
+
+}
+
+@media screen and (min-width : 0px) and (max-width : 768px){
+   .about-container h1{
+     font-size: 0.7rem;
+   }
+   .about-container2 h1{
+     font-size: 0.7rem;
+   }
+   .about-container{
+     padding: 10%;
+     text-align: center;
+     display: flex;
+     flex-wrap: wrap;
+   }
+   .image{
+  width: 50vw;
+  display: flex;
+  margin: 10% auto;
+}
+   .link2 a{
+     font-size: 5px;
+   }
+   
+}
+@media screen and (min-width : 768px) and (max-width : 1024px){
+   .about-container h1{
+     font-size: 1rem;
+   }
+   .image{
+  width: 50vw;
+  display: flex;
+  margin:10% auto;
+}
+}

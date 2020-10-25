@@ -1,0 +1,74 @@
+.footer {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  justify-content: space-around;
+  height: 400px;
+  padding: 5% 5%;
+}
+.footer span{
+  font-size: xx-small;
+}
+.grid{ 
+  display: flex;
+  flex-direction: column;
+  margin: 10% 5%;
+}
+#company{
+    text-align: center;
+    position: absolute;
+    font-size: xx-small;
+    margin-top: 280px;
+}
+#company2{
+    text-align: center;
+    position: absolute;
+    font-family: Bodoni MT;
+    letter-spacing: -15px;
+}
+.line{
+    background-color: #ffffff65;
+    position: absolute;
+    width: 80vw;
+    height: 1px;
+    margin-top: 23px;
+}
+.grid2{
+    display: flex;
+    flex-direction: column;
+}
+.grid3{
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+    margin-right: 10px;
+}
+.social{
+  background-color: #ffffff;
+  padding: 5px 5px;
+  margin: 50% 10%;
+  border-radius: 50%;
+  color: black;
+  text-align: center;
+}
+
+@media screen and (min-width : 320px) and (max-width : 445px){
+  .footer p, h1, h3 {
+    font-size: 0.6rem;
+  }
+  #company2{
+    letter-spacing: -5px;
+  }
+  .social{
+    padding: 2px 2px;
+  }
+}
+@media screen and (min-width : 800px) and (max-width : 3600px){
+  .footer{
+    height: auto;
+  }
+}

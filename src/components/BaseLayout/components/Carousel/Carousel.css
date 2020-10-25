@@ -1,0 +1,10 @@
+.w-100{
+    width: 100vw;
+    height: 70vh;
+}
+.carousel-control-next{
+  background-color: transparent;
+}
+.carousel-control-prev{
+  background-color: transparent;
+}
